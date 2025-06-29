@@ -3,7 +3,7 @@
 👋 Bienvenida 
 
 Hola comunidad 👨‍💻👩‍💻
-Te presento Guess-the-Number-2025, un mini juego web donde debes adivinar un número secreto entre 1 y 100. Este proyecto lo desarrollé para seguir fortaleciendo mis habilidades en desarrollo web, combinando lógica, diseño e interacción con el usuario.
+Les presento Guess-the-Number-2025, un mini juego web donde debes adivinar un número secreto entre 1 y 100. Este proyecto lo desarrollé para seguir fortaleciendo mis habilidades en desarrollo web, combinando lógica, diseño e interacción con el usuario.
 
 🛠️ Tecnologías utilizadas
 
