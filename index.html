@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Juego de Adivinanza Lógica - Yerko Barrera 2025</title>
+  <link rel="stylesheet" href="/css/Style.css" />
+</head>
+<body>
+  <section class="contenedor-juego-padre">
+    <section class="contenedor-juego">
+      <h1>🧠¿Adivinas el Número Secreto?</h1>
+      <p>Ingresa un número y recibe pistas hasta acertar del 1 al 100.</p>
+
+      <input type="number" id="NombreUsuario" placeholder="Introduce un número" min="1" max="100" />
+      <button type="button" onclick="verificarAdivinar()">Verificar</button>
+
+      <p id="message">Ingrese un número entre 1 y 100</p>
+      <p id="cuentainvitado">Número de intentos: 0</p>
+
+      <button type="button" id="resetButton" onclick="resetGame()">Reiniciar</button>
+
+      <div id="burbuja"></div>
+    </section>
+  </section>
+  <script src="/JavaScript/script.js"></script>
+</body>
+</html>

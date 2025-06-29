@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-image: linear-gradient(to top, #014e31 0%, #070f79 100%);
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.contenedor-juego-padre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.contenedor-juego {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: rgb(3, 2, 54);
+}
+
+input {
+  padding: 10px;
+  width: 80%;
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin: 6px;
+}
+
+button:hover {
+  background-color: #8d0f0f;
+}
+
+#message {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+#resetButton {
+  margin-top: 15px;
+  display: none;
+}
+
+#burbuja {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 145px;
+  height: 145px;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+
+.burbuja {
+  position: absolute;
+  background-color: gold;
+  border-radius: 50%;
+  opacity: 0.7;
+  animation: bubbleAnim 2s ease-out forwards;
+}
+
+@keyframes bubbleAnim {
+  0% {
+    transform: scale(1) translateY(0);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(2) translateY(-150px);
+    opacity: 0;
+  }
+}
